@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@model List<MVC_LoanSystem.Models.loanSystem>
+
+@{
+    ViewBag.Title = "Create Plan Master";
+}
+
+<h2>Create Plan Master</h2>
+
+<p>@ViewBag.Message</p>
+<p>@Session["PlanDetails"]</p>
+
+<div style="border:dashed; margin:20px; padding:20px;">
+    <section>
+        <h2>Create Plan</h2>
+        <form action="@Url.Action("Create", "CreatePlanMaster")" method="post">
+            <div>
+                <label for="PlanName">Plan Name</label>
+                <input type="text" id="PlanName" name="PlanName" required />
+            </div>
+            <div>
+                <label for="Tenure">Tenure (months)</label>
+                <input type="number" id="Tenure" name="Tenure" required />
+            </div>
+            <div>
+                <label for="RateOfInterest">Rate of Interest (%)</label>
+                <input type="number" id="RateOfInterest" name="RateOfInterest" step="0.01" required />
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section>
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-success">@TempData["Message"]</div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+        }
+
+        <h2>Existing Plans</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Plan Name</th>
+                    <th>Tenure (months)</th>
+                    <th>Rate of Interest (%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var plan in Model)
+                {
+                    <tr>
+                        <td>@plan.planname</td>
+                        <td>@plan.tenure</td>
+                        <td>@plan.rateofinterest</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </section>
+</div>

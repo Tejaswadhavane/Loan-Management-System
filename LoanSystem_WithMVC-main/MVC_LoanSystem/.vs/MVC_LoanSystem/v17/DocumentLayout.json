@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\React\u0026C#\\MVC_LoanSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\controllers\\generateemischedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\controllers\\generateemischedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\views\\generateemischedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\views\\generateemischedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\controllers\\createplanmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\controllers\\createplanmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\views\\home\\generateemischedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\views\\home\\generateemischedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\models\\loansystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\models\\loansystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\views\\createplanmaster\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\views\\createplanmaster\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|d:\\react\u0026c#\\mvc_loansystem\\mvc_loansystem\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD013308-836A-4131-B153-7F9BDBF8113A}|MVC_LoanSystem\\MVC_LoanSystem.csproj|solutionrelative:mvc_loansystem\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\GenerateEMISchedule\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\Views\\GenerateEMISchedule\\Index.cshtml",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\GenerateEMISchedule\\Index.cshtml",
+              "RelativeToolTip": "MVC_LoanSystem\\Views\\GenerateEMISchedule\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T10:11:42.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenerateEMIScheduleController.cs",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Controllers\\GenerateEMIScheduleController.cs",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\Controllers\\GenerateEMIScheduleController.cs",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Controllers\\GenerateEMIScheduleController.cs",
+              "RelativeToolTip": "MVC_LoanSystem\\Controllers\\GenerateEMIScheduleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:10:11.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\CreatePlanMaster\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\Views\\CreatePlanMaster\\Index.cshtml",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\CreatePlanMaster\\Index.cshtml",
+              "RelativeToolTip": "MVC_LoanSystem\\Views\\CreatePlanMaster\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T10:04:42.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreatePlanMasterController.cs",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Controllers\\CreatePlanMasterController.cs",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\Controllers\\CreatePlanMasterController.cs",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Controllers\\CreatePlanMasterController.cs",
+              "RelativeToolTip": "MVC_LoanSystem\\Controllers\\CreatePlanMasterController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAwwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:01:05.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVC_LoanSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T09:43:57.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenerateEMISchedule.cshtml",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\Home\\GenerateEMISchedule.cshtml",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\Views\\Home\\GenerateEMISchedule.cshtml",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\Home\\GenerateEMISchedule.cshtml",
+              "RelativeToolTip": "MVC_LoanSystem\\Views\\Home\\GenerateEMISchedule.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T07:29:14.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "favicon.ico -  [English (United States)] - Icon [16x16, 32 bit, BMP]",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\favicon.ico",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\favicon.ico",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\favicon.ico -  [English (United States)] - Icon [16x16, 32 bit, BMP]",
+              "RelativeToolTip": "MVC_LoanSystem\\favicon.ico -  [English (United States)] - Icon [16x16, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-01-03T07:27:33.167Z",
+              "EditorCaption": " -  [English (United States)] - Icon [16x16, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "loanSystem.cs",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Models\\loanSystem.cs",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\Models\\loanSystem.cs",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Models\\loanSystem.cs",
+              "RelativeToolTip": "MVC_LoanSystem\\Models\\loanSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T07:14:45.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC_LoanSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T07:06:24.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\Web.config",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\Views\\Web.config",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\Web.config",
+              "RelativeToolTip": "MVC_LoanSystem\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-03T06:21:48.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "MVC_LoanSystem\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T06:17:48.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVC_LoanSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T06:17:18.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\packages.config",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\packages.config",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\packages.config",
+              "RelativeToolTip": "MVC_LoanSystem\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-03T06:17:13.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Web.config",
+              "RelativeDocumentMoniker": "MVC_LoanSystem\\Web.config",
+              "ToolTip": "D:\\React\u0026C#\\MVC_LoanSystem\\MVC_LoanSystem\\Web.config",
+              "RelativeToolTip": "MVC_LoanSystem\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-03T06:12:30.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

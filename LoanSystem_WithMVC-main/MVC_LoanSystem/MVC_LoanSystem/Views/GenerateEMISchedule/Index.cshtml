@@ -1,0 +1,147 @@
+﻿@{
+    ViewBag.Title = "Generate EMI Schedule";
+}
+
+<h1>EMI Schedule</h1>
+<hr />
+@* Form for EMI Calculation and Schedule Generation *@
+
+<div class="form-container">
+    <form id="emiForm">
+        <div>
+            <label>Select Plan Name:</label>
+            @Html.DropDownList("PlanId", (SelectList)ViewBag.Plans, "Select Plan", new { @class = "form-control", onchange = "getPlanDetails()" })
+        </div>
+
+        <div>
+            <label>Tenure:</label>
+            <input id="tenure" class="form-control" readonly />
+        </div>
+
+        <div>
+            <label>Rate of Interest:</label>
+            <input id="rateofinterest" class="form-control" readonly />
+        </div>
+
+        <div>
+            <label>Enter Loan Amount:</label>
+            <input id="loanamount" type="number" class="form-control" />
+        </div>
+
+        <div>
+            <label>Loan Date:</label>
+            <input id="loanDate" type="date" class="form-control" />
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="calculateEMI()">Calculate EMI</button>
+
+        <div>
+            <label>EMI Amount:</label>
+            <input id="emiAmount" type="text" class="form-control" readonly />
+        </div>
+
+        <div>
+            <label>Total EMI Amount:</label>
+            <input id="totalEmi" type="text" class="form-control" readonly />
+        </div>
+
+        <div>
+            <label>Extra Amount Due to EMI:</label>
+            <input id="extraAmount" type="text" class="form-control" readonly />
+        </div>
+
+        <button type="button" class="btn btn-success" onclick="generateSchedule()">Generate Schedule</button>
+    </form>
+</div>
+
+<hr />
+<div class="table-container">
+    <table id="emiScheduleTable" class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>EMI No</th>
+                <th>Due Date</th>
+                <th>EMI Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function getPlanDetails() {
+            var planId = $('#PlanId').val();
+            if (planId) {
+                $.ajax({
+                    url: '@Url.Action("GetPlanDetails", "GenerateEMISchedule")',
+                    data: { planId: planId },
+                    method: 'POST',
+                    success: function (data) {
+                        if (data) {
+                            $('#tenure').val(data.Tenure);
+                            $('#rateofinterest').val(data.RateOfInterest);
+                        }
+                    }
+                });
+            }
+        }
+
+        function calculateEMI() {
+            var loanAmount = parseFloat($('#loanamount').val());
+            var tenure = parseFloat($('#tenure').val());
+            var rateOfInterest = parseFloat($('#rateofinterest').val());
+
+            if (loanAmount && tenure && rateOfInterest) {
+                $.ajax({
+                    url: '@Url.Action("CalculateEMI", "GenerateEMISchedule")',
+                    data: { loanAmount: loanAmount, tenure: tenure, rateOfInterest: rateOfInterest },
+                    method: 'POST',
+                    success: function (data) {
+                        if (data.Error) {
+                            alert(data.Error);
+                        } else {
+                            $('#emiAmount').val(data.Emi);
+                            $('#totalEmi').val(data.TotalEmi);
+                            $('#extraAmount').val(data.ExtraAmount);
+                        }
+                    }
+                });
+            } else {
+                alert('Please enter all values');
+            }
+        }
+
+        function generateSchedule() {
+            var loanAmount = parseFloat($('#loanamount').val());
+            var emiAmount = parseFloat($('#emiAmount').val());
+            var loanDate = $('#loanDate').val();
+            var tenure = parseInt($('#tenure').val());
+
+            if (loanAmount && emiAmount && loanDate && tenure) {
+                $.ajax({
+                    url: '@Url.Action("GenerateSchedule", "GenerateEMISchedule")',
+                    data: { loanAmount: loanAmount, emiAmount: emiAmount, loanDate: loanDate, tenure: tenure },
+                    method: 'POST',
+                    success: function (data) {
+                        if (data.Error) {
+                            alert(data.Error);
+                        } else {
+                            var scheduleTable = $('#emiScheduleTable tbody');
+                            scheduleTable.empty();
+
+                            data.Schedule.forEach(function (item) {
+                                var row = '<tr><td>' + item.EmiNo + '</td><td>' + item.DueDate + '</td><td>' + item.EmiAmount + '</td></tr>';
+                                scheduleTable.append(row);
+                            });
+                        }
+                    }
+                });
+            } else {
+                alert('Please fill out all fields.');
+            }
+        }
+    </script>
+}
